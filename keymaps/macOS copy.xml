@@ -1,0 +1,45 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateProjectToolWindow" />
+  <action id="ChangesView.Move" />
+  <action id="ChangesView.SetDefault" />
+  <action id="ClassNameCompletion" />
+  <action id="ContextHelp" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="EditorCutLineEnd" />
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="ExternalJavaDoc" />
+  <action id="FileChooser.GotoHome" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="GotoTest" />
+  <action id="NewScratchFile" />
+  <action id="NextEditorTab" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="PreviousEditorTab" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="Replace" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="ServiceView.ShowServices" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+</keymap>
